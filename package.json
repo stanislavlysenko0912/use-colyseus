@@ -1,0 +1,53 @@
+{
+  "name": "use-colyseus",
+  "version": "0.0.9",
+  "description": "Set of utility React hooks to use Colyseus with React.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "publish-package": "pnpm run build && pnpm publish"
+  },
+  "author": "Pedro Fontoura",
+  "contributors": [
+    "Pedro Fontoura",
+    "Julius van Voorden (github/p3ntest)"
+  ],
+  "keywords": [
+    "colyseus",
+    "multiplayer",
+    "react",
+    "hook"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedr0fontoura/use-colyseus.git"
+  },
+  "dependencies": {
+    "@colyseus/schema": "^2.0.20",
+    "colyseus.js": "^0.15.14",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.3"
+  }
+}
