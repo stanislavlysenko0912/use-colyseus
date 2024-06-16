@@ -1,5 +1,7 @@
 # useColyseus Hooks 🎣 🏟️
 
+## [Original Repo](https://github.com/pedr0fontoura/use-colyseus.git)
+
 This package contains a set of utility hooks to use Colyseus with React.
 
 [Colyseus](https://colyseus.io/) is a framework for writing your own authoritative multiplayer game servers using JavaScript/TypeScript and Node.js, and easily integrating it with your favorite game engine.
